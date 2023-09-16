@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shared\Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Cart\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cart\OrderComplete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Guarantee.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\History.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\People.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Product\Detail.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Product\Index.cshtml" />
+    </ItemGroup>
+
+</Project>
